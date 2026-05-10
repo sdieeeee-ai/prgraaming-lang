@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Sdeem Omar&Reem almutairi</title>
+  <meta name="description" content="Get in touch with Sdeem Omar& Reem almutairi." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">Sdeem Omar&Reem almutairi</span>
+      </a>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h2 class="section-title">Get in <span class="grad">Touch</span></h2>
+      <p class="section-sub">I'd love to hear from you</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="info-card"><div class="icon">✉</div><div><div class="label">Email</div><div class="value">sdeem@gmail.com</div></div></div>
+          <div class="info-card"><div class="icon">📍</div><div><div class="label">Location</div><div class="value">Buraydah, Saudi Arabia</div></div></div>
+          <div class="info-card"><div class="icon">⌥</div><div><div class="label">GitHub</div><div class="value">@qarisoft</div></div></div>
+        </div>
+
+        <form id="contact-form" class="contact-form reveal" novalidate>
+          <div class="field">
+            <input type="text" name="name" placeholder="Your name" />
+            <small id="err-name" class="err"></small>
+          </div>
+          <div class="field">
+            <input type="email" name="email" placeholder="Your email" />
+            <small id="err-email" class="err"></small>
+          </div>
+          <div class="field">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <small id="err-message" class="err"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">✈ Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">© 2026 Sdeem Omar&Reem almutairi — All rights reserved.</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
